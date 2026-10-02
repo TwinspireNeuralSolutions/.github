@@ -1,0 +1,16 @@
+# Owners for review under the `main protection` ruleset
+# (architecture-control-plane: governance/github/rulesets/main-protection.json).
+#
+# The @TwinspireNeuralSolutions/principal-architects team must exist and have
+# members before code-owner review is required on this repository: GitHub
+# cannot assign a review to an owner it cannot resolve, and an unresolvable
+# owner blocks every pull request.
+
+# Default owners for any path in this repository.
+*           @TwinspireNeuralSolutions/principal-architects
+
+# Governance and CI surfaces.
+/.github/   @TwinspireNeuralSolutions/principal-architects
+/.trunk/    @TwinspireNeuralSolutions/principal-architects
+/AGENTS.md  @TwinspireNeuralSolutions/principal-architects
+/README.md  @TwinspireNeuralSolutions/principal-architects
